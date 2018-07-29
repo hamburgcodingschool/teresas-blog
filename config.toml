@@ -1,0 +1,62 @@
+baseURL = "/"
+theme = "casper-two"
+languageCode = "en-US"
+disqusShortname = ""
+paginate        = 6
+canonifyurls    = true
+
+[params]
+  title       = "Teresa's Blog"
+  subtitle    = "A journey of a girl in tech"
+  copyright   = "© 2018"
+
+  cover       = "img/laptop-3.jpg"
+  description = "I work in tech, and this is what I write about."
+  metaDescription = ""
+  googleAnalytics = ""
+  customCSS = []
+  RSSLink = ""
+
+  twitterName = "faketryghost"
+  fbName = "fakeghost"
+  githubName = "eueung"
+  linkedinName = "eueung"
+  mediumName = ""
+
+  orgName = "Hamburg Coding School"
+  orgWebsite = "https://hamburgcodingschool.com"
+  orgDescription = "Here is a description placeholder for your org"
+
+  showSupport = false
+
+  author = "Teresa"
+  authorAvatar = "img/teresa.jpg"
+  authorLocation = "Bandung, ID"
+  authorWebsite = "https://eueung.github.io"
+  authorDescription = "Describe yourself.."
+
+  pageNotFoundTitle = "404 - Page not found"
+
+  #casper or caspertwo
+  singleViewStyle = "casper"
+
+[permalinks]
+  post = "/post/:slug/"
+
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 200
+
+[[menu.main]]
+  name = "Categories"
+  url = "/categories/"
+  weight = 99
+
+[[menu.main]]
+  name = "Contact"
+  url = "https://hamburgcodingschool.com/"
+  weight = 95
+
+
